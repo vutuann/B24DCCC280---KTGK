@@ -1,4 +1,4 @@
-﻿export default [
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -38,18 +38,12 @@
 	},
 
 	// DANH MUC HE THONG
-	// {
-	// 	name: 'DanhMuc',
-	// 	path: '/danh-muc',
-	// 	icon: 'copy',
-	// 	routes: [
-	// 		{
-	// 			name: 'ChucVu',
-	// 			path: 'chuc-vu',
-	// 			component: './DanhMuc/ChucVu',
-	// 		},
-	// 	],
-	// },
+	{
+		name: 'Quản lý phòng học',
+		path: '/danh-muc/phong-hoc',
+		icon: 'HomeOutlined',
+		component: './DanhMuc/PhongHoc',
+	},
 
 	{
 		path: '/notification',
