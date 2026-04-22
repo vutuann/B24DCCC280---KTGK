@@ -9,6 +9,7 @@ declare module '*.jpeg';
 declare module '*.gif';
 declare module '*.bmp';
 declare module '*.tiff';
+declare module 'react-split-pane';
 declare module 'react-split-pane/lib/Pane';
 
 // preview.pro.ant.design only do not use in your production ;
